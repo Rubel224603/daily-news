@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+.dailyNews {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vission_img {
+    height: 127px;
+    margin-top: -9px !important;
+}
+.h-10{
+  height: 125px;
+}
+.border_bar{
+  width: 740px;
+  height: 2px;
+  margin: 17px 9px 12px 19px;
+  background-color: black;
+  
+}
+.relijious_bar{
+  width: 900px;
+  height: 2px;
+  margin: 17px 9px 12px 19px;
+  background-color: black;
+  
+}
+.bar_education{
+  width: 900px;
+  height: 2px;
+  margin: 17px 9px 12px 19px;
+  background-color: black;
+  
+}
+.border1{
+    width: 77px;
+    height: 2px;
+    margin: 17px 9px 12px 10px;
+    background-color: black;
+
+}
+.h-15{
+  height: 150px;
+}
+.firstImageRight{
+  margin-top: 61px !important;
+}
+.secondImagRight{
+  margin-top:78px !important;
+}
+.thirdImageRIght{
+   margin-top:px !important;
+}
+.thumbnail-img {
+      cursor: pointer;
+      border: 2px solid transparent;
+      height: 77px;
+      object-fit: cover;
+ }
+.thumbnail-img:hover {
+    border-color: #007bff;
+}
+.sliderthum{
+  margin-top:40px;
+}
+p .f-13{
+  font-size:14x !important;
+}
+
+@media (max-width: 768px) {
+  .sliderthum {
+    margin-top: 20px; 
+  }
+}
+@media (max-width: 576px) {
+  .thumbnail-img {
+    margin-top: -80px;
+  }
+  .spaceForSmall{
+    margin-top:10px;
+  }
+}
+
+
+ 
