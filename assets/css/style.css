@@ -150,16 +150,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 .dailyNews {
   font-family: "Baloo Da 2", sans-serif;
   font-weight: 400;
@@ -229,19 +219,6 @@ p .f-13{
   font-size:14x !important;
 }
 
-@media (max-width: 768px) {
-  .sliderthum {
-    margin-top: 20px; 
-  }
-}
-@media (max-width: 576px) {
-  .thumbnail-img {
-    margin-top: -80px;
-  }
-  .spaceForSmall{
-    margin-top:10px;
-  }
-}
 
 .bold{
   font-weight: bold !important;

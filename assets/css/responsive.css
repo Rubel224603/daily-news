@@ -1,24 +1,74 @@
-/* Responsive styles */
-@media (max-width: 991.98px) {
-  .navbar-collapse {
-    background-color: #004480;
-    padding: 10px;
-    margin-top: 10px;
+
+@media (max-width:991px) {
+   .social{
+    width: 16px !important;
+    height: 20px !important;
+    margin-left: 2px;
+   
   }
-   .navbar-collapse a:hover{
-    background-color: red !important;
+   .tiktok{
+    font-size: 14px !important;
     
-   }
+  }
+   .fb{
+    font-size: 14px !important;
+ 
+  }.youtube{
+     font-size: 14px !important;
+   
+  }
+   .twitter{
+    font-size: 14px !important;
+   
+  }
+   .linkedin{
+    font-size: 14px !important;
+   
+  }
+}
+@media (max-width: 768px) {
 
-  .search-form {
-    margin-top: 10px;
-    width: 100%;
+  .social-responsive{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+  }
+  .social{
+    width: 17px !important;
+    height: 20px !important;
+   
+    
+   
+  }
+  .tiktok{
+    font-size: 10px !important;
+    color:red;
+  }
+  .youtube{
+    font-size: 10px !important;
+  }
+ .languageBtn{
+ margin:5px;
+ font-size:12px;
+ height: 28px;
+
+ }
+  .sliderthum {
+    margin-top: 20px; 
+ 
+
   }
 
-  .all-news-button {
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
+}
+@media (max-width: 576px) {
+  .thumbnail-img {
+    margin-top: -80px;
+  }
+  .spaceForSmall{
+    margin-top:10px;
+  }
+  .social-responsive{
+    display: hidden;
   }
 }
 
