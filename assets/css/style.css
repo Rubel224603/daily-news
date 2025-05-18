@@ -40,7 +40,9 @@
 }
 
 .navbar-nav .nav-link:hover {
-  background-color: #004480;
+ 
+    background-color: red !important;
+   
 }
 
 .home-icon {
@@ -241,5 +243,8 @@ p .f-13{
   }
 }
 
-
+.bold{
+  font-weight: bold !important;
+  line-height: 1 !important;
+}
  
