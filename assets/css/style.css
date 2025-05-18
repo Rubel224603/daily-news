@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Cal+Sans&family=Noto+Serif+Bengali:wdth,wght@62.5,100..900&display=swap');.heading_Slogan{
+   font-family: "Noto Serif Bengali", serif !important;
+  font-weight: 400;
+  font-size: 19px !important;
+  font-style: normal;
+}
 .dailyNews {
-  font-family: "Cal Sans", sans-serif;
+  font-family: "Baloo Da 2", sans-serif;
   font-weight: 400;
   font-style: normal;
 }

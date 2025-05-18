@@ -1,0 +1,110 @@
+.navbar {
+            background-color: #005596;
+            padding: 0;
+        }
+        .navbar-nav .nav-link {
+            color: white;
+            padding: 12px 15px;
+            font-size: 14px;
+        }
+        .navbar-nav .nav-link:hover {
+            background-color: #004480;
+        }
+        .home-icon {
+            padding: 12px 15px;
+            background-color: #004480;
+            color: white;
+        }
+        .all-news-button {
+            background-color: #ffc107;
+            color: #000;
+            border: none;
+            border-radius: 0;
+            padding: 12px 15px;
+        }
+        .search-form {
+            position: relative;
+        }
+        .search-form input {
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            padding-right: 40px;
+        }
+        .search-form button {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            background: none;
+            border: none;
+        }
+        .navbar-toggler {
+            border-color: rgba(255,255,255,0.5);
+            color: white;
+        }
+        /* Responsive styles */
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                background-color: #004480;
+                padding: 10px;
+            }
+            .search-form {
+                margin-top: 10px;
+                width: 100%;
+            }
+            .all-news-button {
+                margin-top: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        /*marquee*/
+          .news-container {
+      display: flex;
+      height: 40px;
+      overflow: hidden;
+    }
+    .news-title {
+      background-color: #d9232d;
+      color: white;
+      padding: 8px 15px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+    .news-scroll {
+      background-color: #5cb85c;
+      flex-grow: 1;
+      overflow: hidden;
+      position: relative;
+    }
+    .news-scroll-content {
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      gap: 50px;
+      animation: scrollNews 15s linear infinite;
+    }
+    .news-item {
+      display: inline-flex;
+      align-items: center;
+    }
+    .bullet {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 20px;
+      margin-right: 10px;
+    }
+    @keyframes scrollNews {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
