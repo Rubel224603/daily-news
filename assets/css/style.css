@@ -6,6 +6,7 @@
   font-style: normal;
 }
 
+
 .social{
     width: 30px;
     height: 30px;
@@ -164,11 +165,10 @@
   height: 125px;
 }
 .border_bar{
-  width: 740px;
+  width: 975px;
   height: 2px;
-  margin: 17px 9px 12px 19px;
+  margin: 13px 8px 8px 19px;
   background-color: black;
-  
 }
 .relijious_bar{
   width: 900px;
@@ -215,9 +215,13 @@
 .sliderthum{
   margin-top:40px;
 }
-p .f-13{
-  font-size:14x !important;
-}
+.f-10{
+    font-size: 13px !important;
+  }
+  .f-16{
+    font-size: 16px;
+    font-weight: 600;
+  }
 
 
 .bold{
@@ -225,3 +229,43 @@ p .f-13{
   line-height: 1 !important;
 }
  
+/*five column*/
+ .col-five {
+            width: 20%;
+           
+            position: relative;
+        }
+        
+  
+        @media (max-width: 767.98px) {
+            .col-five {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .col-five {
+                width: 20%;
+            }
+        }
+        
+        .news-card {
+            margin-bottom: 20px;
+        }
+        
+        
+        
+        body {
+            padding: 20px;
+        }
+        
+        .demo-header {
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+
+
+

@@ -58,6 +58,9 @@
  
 
   }
+   .col-five {
+        width: 100%;
+    }
 
 }
 @media (max-width: 576px) {
