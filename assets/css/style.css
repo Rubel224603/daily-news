@@ -98,11 +98,13 @@
 .news-title {
   background-color: #d9232d;
   color: white;
-  padding: 8px 15px;
+  margin-top: 0px;
+  padding: 0px 15px;
   font-weight: bold;
   display: flex;
   align-items: center;
   white-space: nowrap;
+  margin-right:7px;
 }
 
 .news-scroll {
